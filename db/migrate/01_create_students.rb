@@ -5,7 +5,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
       t.string :name
     end
   end
-  
+
 end
 
 
@@ -15,7 +15,7 @@ end
 #     ActiveRecord::Base.connection.execute(sql)
 #     CreateStudents.new.change
 #   end
-# 
+#
 #   it 'has a name' do
 #     student = Student.create(name: "Steven")
 #     expect(Student.where(name: "Steven").first).to eq(student)
