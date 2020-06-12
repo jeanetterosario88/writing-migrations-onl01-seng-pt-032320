@@ -1,4 +1,4 @@
-class CreateStudents < ActiveRecord::Migration[5.2]
+class CreateStudents << ActiveRecord::Migration[5.2]
 
   def change
     create_table :artists do |t|
